@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !\.(js|css|md)$
+RewriteRule ^(.*)$ index.php
+Options -Indexes
